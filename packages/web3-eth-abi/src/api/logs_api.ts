@@ -1,4 +1,4 @@
-import { HexString } from 'web3-utils';
+import { HexString } from '@jamo/web3-utils';
 import { AbiParameter } from '../types';
 import { decodeParameter, decodeParametersWith } from './parameters_api';
 

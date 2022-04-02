@@ -7,8 +7,8 @@ import {
 	Numbers,
 	numberToHex,
 	toBigInt,
-} from 'web3-utils';
-import { isObject, JsonSchema, utils, ValidationSchemaInput } from 'web3-validator';
+} from '@jamo/web3-utils';
+import { isObject, JsonSchema, utils, ValidationSchemaInput } from '@jamo/web3-validator';
 import { FormatterError } from './errors';
 
 const { parseBaseType } = utils;

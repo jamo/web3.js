@@ -1,4 +1,4 @@
-import { TransactionCall, TransactionWithSender } from 'web3-common';
+import { TransactionCall, TransactionWithSender } from '@jamo/web3-common';
 import {
 	Address,
 	BlockNumberOrTag,
@@ -8,7 +8,7 @@ import {
 	HexStringBytes,
 	Uint,
 	Uint256,
-} from 'web3-utils';
+} from '@jamo/web3-utils';
 
 import { AccountObject } from '../../src/web3_eth_execution_api';
 

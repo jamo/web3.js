@@ -1,4 +1,4 @@
-import { Web3APISpec, Web3BaseProvider } from 'web3-common';
+import { Web3APISpec, Web3BaseProvider } from '@jamo/web3-common';
 import {
 	LegacyRequestProvider,
 	LegacySendAsyncProvider,

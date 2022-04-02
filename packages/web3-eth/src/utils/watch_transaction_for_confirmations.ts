@@ -1,6 +1,6 @@
-import { DataFormat, EthExecutionAPI, format, PromiEvent } from 'web3-common';
-import { Web3Context } from 'web3-core';
-import { Bytes, numberToHex } from 'web3-utils';
+import { DataFormat, EthExecutionAPI, format, PromiEvent } from '@jamo/web3-common';
+import { Web3Context } from '@jamo/web3-core';
+import { Bytes, numberToHex } from '@jamo/web3-utils';
 
 import {
 	TransactionMissingReceiptOrBlockHashError,

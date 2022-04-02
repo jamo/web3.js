@@ -1,7 +1,7 @@
-import { DEFAULT_RETURN_FORMAT } from 'web3-common';
-import { formatTransaction, Transaction } from 'web3-eth';
-import { Address, HexString, isHexStrict, toChecksumAddress, utf8ToHex } from 'web3-utils';
-import { validator } from 'web3-validator';
+import { DEFAULT_RETURN_FORMAT } from '@jamo/web3-common';
+import { formatTransaction, Transaction } from '@jamo/web3-eth';
+import { Address, HexString, isHexStrict, toChecksumAddress, utf8ToHex } from '@jamo/web3-utils';
+import { validator } from '@jamo/web3-validator';
 import {
 	getAccounts as rpcGetAccounts,
 	lockAccount as rpcLockAccount,

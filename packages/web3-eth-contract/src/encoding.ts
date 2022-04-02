@@ -1,4 +1,4 @@
-import { inputBlockNumberFormatter, LogsInput, outputLogFormatter } from 'web3-common';
+import { inputBlockNumberFormatter, LogsInput, outputLogFormatter } from '@jamo/web3-common';
 import {
 	AbiConstructorFragment,
 	AbiEventFragment,
@@ -9,8 +9,8 @@ import {
 	encodeParameter,
 	encodeParameters,
 	isAbiConstructorFragment,
-} from 'web3-eth-abi';
-import { Filter, HexString, Uint } from 'web3-utils';
+} from '@jamo/web3-eth-abi';
+import { Filter, HexString, Uint } from '@jamo/web3-utils';
 import { Web3ContractError } from './errors';
 import { ContractOptions } from './types';
 

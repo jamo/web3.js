@@ -1,4 +1,4 @@
-import { Address, Bytes, Numbers } from 'web3-utils';
+import { Address, Bytes, Numbers } from '@jamo/web3-utils';
 import { expectTypeOf, typecheck } from '@humeris/espresso-shot';
 import { FMT_BYTES, FMT_NUMBER, format, FormatType } from '../../src/formatter';
 

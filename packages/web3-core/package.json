@@ -1,5 +1,5 @@
 {
-	"name": "web3-core",
+	"name": "@jamo/web3-core",
 	"version": "4.0.0-alpha.0",
 	"description": "Web3 core tools for sub-packages. This is an internal package.",
 	"main": "dist/index.js",
@@ -25,11 +25,11 @@
 		"test:integration": "jest --config=./test/integration/jest.config.js --passWithNoTests"
 	},
 	"dependencies": {
-		"web3-utils": "4.0.0-alpha.1",
-		"web3-common": "1.0.0-alpha.0",
-		"web3-providers-http": "4.0.0-alpha.1",
-		"web3-providers-ws": "4.0.0-alpha.0",
-		"web3-providers-ipc": "4.0.0-alpha.0"
+		"@jamo/web3-utils": "4.0.0-alpha.1",
+		"@jamo/web3-common": "1.0.0-alpha.0",
+		"@jamo/web3-providers-http": "4.0.0-alpha.1",
+		"@jamo/web3-providers-ws": "4.0.0-alpha.0",
+		"@jamo/web3-providers-ipc": "4.0.0-alpha.0"
 	},
 	"devDependencies": {
 		"@types/jest": "^27.0.3",

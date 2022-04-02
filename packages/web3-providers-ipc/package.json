@@ -1,5 +1,5 @@
 {
-	"name": "web3-providers-ipc",
+	"name": "@jamo/web3-providers-ipc",
 	"version": "4.0.0-alpha.0",
 	"description": "IPC provider for Web3 4.x.x",
 	"main": "dist/index.js",
@@ -39,6 +39,6 @@
 		"typescript": "^4.5.2"
 	},
 	"dependencies": {
-		"web3-common": "1.0.0-alpha.0"
+		"@jamo/web3-common": "1.0.0-alpha.0"
 	}
 }

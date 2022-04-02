@@ -1,4 +1,4 @@
-import { FMT_BYTES, FMT_NUMBER, FormatType } from 'web3-common';
+import { FMT_BYTES, FMT_NUMBER, FormatType } from '@jamo/web3-common';
 import {
 	ChainIdMismatchError,
 	CommonOrChainAndHardforkError,

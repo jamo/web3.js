@@ -10,7 +10,7 @@ import {
 	Web3BaseProviderCallback,
 } from './types';
 
-const symbol = Symbol.for('web3/base-provider');
+const symbol = Symbol.for('@jamo/web3/base-provider');
 
 // Provider interface compatible with EIP-1193
 // https://github.com/ethereum/EIPs/blob/master/EIPS/eip-1193.md

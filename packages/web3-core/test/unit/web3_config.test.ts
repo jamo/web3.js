@@ -1,4 +1,4 @@
-import { toHex } from 'web3-utils';
+import { toHex } from '@jamo/web3-utils';
 import { Web3Config, Web3ConfigEvent } from '../../src/web3_config';
 
 class MyConfigObject extends Web3Config {}

@@ -11,7 +11,7 @@ import {
 	Web3APISpec,
 	Web3BaseProvider,
 	Web3BaseProviderStatus,
-} from 'web3-common';
+} from '@jamo/web3-common';
 import { HttpProviderOptions } from './types';
 
 export default class HttpProvider<

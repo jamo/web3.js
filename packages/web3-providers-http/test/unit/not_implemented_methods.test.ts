@@ -1,4 +1,4 @@
-import { MethodNotImplementedError } from 'web3-common';
+import { MethodNotImplementedError } from '@jamo/web3-common';
 
 import HttpProvider from '../../src/index';
 

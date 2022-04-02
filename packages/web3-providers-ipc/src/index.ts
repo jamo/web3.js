@@ -20,7 +20,7 @@ import {
 	Web3BaseProvider,
 	Web3BaseProviderCallback,
 	Web3BaseProviderStatus,
-} from 'web3-common';
+} from '@jamo/web3-common';
 
 export default class IpcProvider<
 	API extends Web3APISpec = EthExecutionAPI,

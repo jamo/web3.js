@@ -5,7 +5,7 @@ import {
 	hexToNumber,
 	HexString,
 	InvalidAddressError,
-} from 'web3-utils';
+} from '@jamo/web3-utils';
 import { IbanOptions } from './types';
 
 export class Iban {

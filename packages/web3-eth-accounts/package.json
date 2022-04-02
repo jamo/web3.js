@@ -1,5 +1,5 @@
 {
-	"name": "web3-eth-accounts",
+	"name": "@jamo/web3-eth-accounts",
 	"version": "4.0.0-alpha.0",
 	"description": "Package for managing Ethereum accounts and signing",
 	"main": "dist/index.js",
@@ -43,8 +43,8 @@
 		"@ethereumjs/tx": "^3.4.0",
 		"ethereum-cryptography": "^0.2.1",
 		"secp256k1": "^4.0.2",
-		"web3-common": "^1.0.0-alpha.0",
-		"web3-utils": "^4.0.0-alpha.1",
-		"web3-validator": "^0.1.0-alpha.0"
+		"@jamo/web3-common": "^1.0.0-alpha.0",
+		"@jamo/web3-utils": "^4.0.0-alpha.1",
+		"@jamo/web3-validator": "^0.1.0-alpha.0"
 	}
 }

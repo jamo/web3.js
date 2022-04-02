@@ -4,7 +4,7 @@ import { getDataFormat } from '../fixtures/web3_net_methods';
 
 jest.mock('../../src/rpc_method_wrappers');
 
-describe('web3_eth_methods', () => {
+describe('@jamo/web3_eth_methods', () => {
 	let web3Net: Web3Net;
 
 	beforeAll(() => {

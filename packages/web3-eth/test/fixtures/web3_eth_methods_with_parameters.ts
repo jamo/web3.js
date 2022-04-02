@@ -1,4 +1,9 @@
-import { DataFormat, DEFAULT_RETURN_FORMAT, FMT_NUMBER, TransactionWithSender } from 'web3-common';
+import {
+	DataFormat,
+	DEFAULT_RETURN_FORMAT,
+	FMT_NUMBER,
+	TransactionWithSender,
+} from '@jamo/web3-common';
 import {
 	Address,
 	BlockNumberOrTag,
@@ -9,7 +14,7 @@ import {
 	HexStringBytes,
 	Uint,
 	Uint256,
-} from 'web3-utils';
+} from '@jamo/web3-utils';
 import { transactionWithSender } from './rpc_methods_wrappers';
 
 /**

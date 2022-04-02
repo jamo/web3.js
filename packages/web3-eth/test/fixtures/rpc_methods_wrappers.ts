@@ -7,7 +7,7 @@ import {
 	FMT_NUMBER,
 	FormatType,
 	TransactionWithSender,
-} from 'web3-common';
+} from '@jamo/web3-common';
 import {
 	HexString32Bytes,
 	Address,
@@ -20,7 +20,7 @@ import {
 	Filter,
 	HexString8Bytes,
 	Numbers,
-} from 'web3-utils';
+} from '@jamo/web3-utils';
 import {
 	Block,
 	FeeHistory,

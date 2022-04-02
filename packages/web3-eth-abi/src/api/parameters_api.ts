@@ -1,6 +1,6 @@
-import { AbiError } from 'web3-common';
+import { AbiError } from '@jamo/web3-common';
 import { ParamType } from '@ethersproject/abi';
-import { HexString } from 'web3-utils';
+import { HexString } from '@jamo/web3-utils';
 import ethersAbiCoder from '../ethers_abi_coder';
 import { AbiInput } from '../types';
 import { formatParam, isAbiFragment, mapTypes, modifyParams } from '../utils';

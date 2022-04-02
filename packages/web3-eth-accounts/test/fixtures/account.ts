@@ -7,7 +7,7 @@ import {
 	InvalidPasswordError,
 	IVLengthError,
 	PBKDF2IterationsError,
-} from 'web3-common';
+} from '@jamo/web3-common';
 import { sign, signTransaction, encrypt } from '../../src/account';
 import { CipherOptions, KeyStore } from '../../src/types';
 

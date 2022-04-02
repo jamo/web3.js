@@ -1,6 +1,6 @@
-import { EthExecutionAPI } from 'web3-common';
-import { Web3Context } from 'web3-core';
-import HttpProvider from 'web3-providers-http';
+import { EthExecutionAPI } from '@jamo/web3-common';
+import { Web3Context } from '@jamo/web3-core';
+import HttpProvider from '@jamo/web3-providers-http';
 import {
 	Eip1559NotSupportedError,
 	UnableToPopulateNonceError,
@@ -17,7 +17,7 @@ import {
 jest.mock('../../src/rpc_methods');
 
 const expectedNetworkId = '0x4';
-jest.mock('web3-net', () => ({
+jest.mock('@jamo/web3-net', () => ({
 	getId: jest.fn().mockImplementation(() => expectedNetworkId),
 }));
 

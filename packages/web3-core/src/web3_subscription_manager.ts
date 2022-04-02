@@ -1,4 +1,4 @@
-import { ProviderError, SubscriptionError, Web3APISpec } from 'web3-common';
+import { ProviderError, SubscriptionError, Web3APISpec } from '@jamo/web3-common';
 import { isSupportSubscriptions } from './utils';
 import { Web3RequestManager, Web3RequestManagerEvent } from './web3_request_manager';
 import { Web3SubscriptionConstructor } from './web3_subscriptions';

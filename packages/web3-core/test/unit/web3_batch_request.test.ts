@@ -6,7 +6,7 @@ import {
 	OperationAbortError,
 	DeferredPromise,
 	OperationTimeoutError,
-} from 'web3-common';
+} from '@jamo/web3-common';
 import { Web3BatchRequest } from '../../src/web3_batch_request';
 
 describe('Web3BatchRequest', () => {

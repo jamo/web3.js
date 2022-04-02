@@ -2,7 +2,7 @@ import { Web3Validator } from '../../src/web3_validator';
 import * as keywords from '../../src/keywords';
 import * as formats from '../../src/formats';
 
-describe('web3-validator', () => {
+describe('@jamo/web3-validator', () => {
 	describe('Web3Validator', () => {
 		let validator: Web3Validator;
 

@@ -1,5 +1,5 @@
 import { WebSocket } from 'isomorphic-ws';
-import { EthExecutionAPI, Web3APIPayload } from 'web3-common';
+import { EthExecutionAPI, Web3APIPayload } from '@jamo/web3-common';
 import WebSocketProvider from '../../src/index';
 import {
 	invalidConnectionStrings,

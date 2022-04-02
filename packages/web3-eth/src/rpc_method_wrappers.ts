@@ -9,8 +9,8 @@ import {
 	FMT_BYTES,
 	FMT_NUMBER,
 	DEFAULT_RETURN_FORMAT,
-} from 'web3-common';
-import { Web3Context } from 'web3-core';
+} from '@jamo/web3-common';
+import { Web3Context } from '@jamo/web3-core';
 import {
 	Address,
 	BlockNumberOrTag,
@@ -21,8 +21,8 @@ import {
 	Numbers,
 	Uint,
 	Uint256,
-} from 'web3-utils';
-import { isBlockTag, isHexString32Bytes, validator } from 'web3-validator';
+} from '@jamo/web3-utils';
+import { isBlockTag, isHexString32Bytes, validator } from '@jamo/web3-validator';
 import * as rpcMethods from './rpc_methods';
 import {
 	accountSchema,

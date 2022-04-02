@@ -1,5 +1,5 @@
 {
-	"name": "web3-eth-abi",
+	"name": "@jamo/web3-eth-abi",
 	"version": "4.0.0-alpha.0",
 	"description": "Web3 module encode and decode EVM in/output.",
 	"main": "dist/index.js",
@@ -26,8 +26,8 @@
 	},
 	"dependencies": {
 		"@ethersproject/abi": "^5.0.7",
-		"web3-common": "^1.0.0-alpha.0",
-		"web3-utils": "^4.0.0-alpha.1"
+		"@jamo/web3-common": "^1.0.0-alpha.0",
+		"@jamo/web3-utils": "^4.0.0-alpha.1"
 	},
 	"devDependencies": {
 		"@types/jest": "^27.0.3",

@@ -1,5 +1,5 @@
-import { Web3ValidatorError } from 'web3-validator';
-import { isHexStrict, Address, utf8ToHex } from 'web3-utils';
+import { Web3ValidatorError } from '@jamo/web3-validator';
+import { isHexStrict, Address, utf8ToHex } from '@jamo/web3-utils';
 import {
 	create,
 	privateKeyToAccount,

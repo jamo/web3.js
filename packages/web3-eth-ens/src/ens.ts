@@ -1,15 +1,15 @@
-import { getBlock, ReceiptInfo } from 'web3-eth';
-import { Web3Context, SupportedProviders, Web3ContextObject } from 'web3-core';
-import { getId, Web3NetAPI } from 'web3-net';
-import { Address } from 'web3-utils';
+import { getBlock, ReceiptInfo } from '@jamo/web3-eth';
+import { Web3Context, SupportedProviders, Web3ContextObject } from '@jamo/web3-core';
+import { getId, Web3NetAPI } from '@jamo/web3-net';
+import { Address } from '@jamo/web3-utils';
 import {
 	RevertInstructionError,
 	EthExecutionAPI,
 	ENSUnsupportedNetworkError,
 	ENSNetworkNotSyncedError,
 	DEFAULT_RETURN_FORMAT,
-} from 'web3-common';
-import { NonPayableCallOptions, Contract } from 'web3-eth-contract';
+} from '@jamo/web3-common';
+import { NonPayableCallOptions, Contract } from '@jamo/web3-eth-contract';
 import { RESOLVER } from './abi/resolver';
 import { Registry } from './registry';
 import { registryAddresses } from './config';

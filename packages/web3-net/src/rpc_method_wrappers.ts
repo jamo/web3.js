@@ -1,5 +1,5 @@
-import { DataFormat, format } from 'web3-common';
-import { Web3Context } from 'web3-core';
+import { DataFormat, format } from '@jamo/web3-common';
+import { Web3Context } from '@jamo/web3-core';
 import * as rpcMethods from './rpc_methods';
 import { Web3NetAPI } from './web3_net_api';
 

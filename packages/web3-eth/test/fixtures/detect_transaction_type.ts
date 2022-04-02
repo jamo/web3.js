@@ -1,4 +1,4 @@
-import { DEFAULT_RETURN_FORMAT, FormatType } from 'web3-common';
+import { DEFAULT_RETURN_FORMAT, FormatType } from '@jamo/web3-common';
 import { Transaction } from '../../src/types';
 
 export const transactionType0x0: FormatType<Transaction, typeof DEFAULT_RETURN_FORMAT>[] = [

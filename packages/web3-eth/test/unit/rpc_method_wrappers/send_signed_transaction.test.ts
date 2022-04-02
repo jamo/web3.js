@@ -1,6 +1,6 @@
-import { Web3Context } from 'web3-core';
+import { Web3Context } from '@jamo/web3-core';
 
-import { DEFAULT_RETURN_FORMAT, format } from 'web3-common';
+import { DEFAULT_RETURN_FORMAT, format } from '@jamo/web3-common';
 import * as rpcMethods from '../../../src/rpc_methods';
 import { Web3EthExecutionAPI } from '../../../src/web3_eth_execution_api';
 import { sendSignedTransaction } from '../../../src/rpc_method_wrappers';

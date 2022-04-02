@@ -1,4 +1,4 @@
-import { Address, Bytes, FixedSizeArray, Numbers } from 'web3-utils';
+import { Address, Bytes, FixedSizeArray, Numbers } from '@jamo/web3-utils';
 import { ConvertToNumber } from './number_map_type';
 
 export interface AbiStruct {

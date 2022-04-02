@@ -1,10 +1,10 @@
-import * as utils from 'web3-utils';
-import * as eth from 'web3-eth';
-import { validator } from 'web3-validator';
+import * as utils from '@jamo/web3-utils';
+import * as eth from '@jamo/web3-eth';
+import { validator } from '@jamo/web3-validator';
 import { EthPersonal } from '../../src/index';
 
-jest.mock('web3-utils');
-jest.mock('web3-eth');
+jest.mock('@jamo/web3-utils');
+jest.mock('@jamo/web3-eth');
 
 describe('EthPersonal', () => {
 	let ethPersonal: EthPersonal;

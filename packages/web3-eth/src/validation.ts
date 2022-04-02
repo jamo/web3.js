@@ -9,8 +9,8 @@ import {
 	TransactionCall,
 	TransactionLegacyUnsigned,
 	TransactionWithSender,
-} from 'web3-common';
-import { isAddress, isHexStrict, isHexString32Bytes, isUInt } from 'web3-validator';
+} from '@jamo/web3-common';
+import { isAddress, isHexStrict, isHexString32Bytes, isUInt } from '@jamo/web3-validator';
 import {
 	ChainIdMismatchError,
 	CommonOrChainAndHardforkError,

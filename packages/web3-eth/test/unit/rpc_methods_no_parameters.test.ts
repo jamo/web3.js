@@ -1,4 +1,4 @@
-import { Web3RequestManager } from 'web3-core';
+import { Web3RequestManager } from '@jamo/web3-core';
 
 import {
 	getAccounts,
@@ -159,7 +159,7 @@ describe('rpc_methods_no_parameters', () => {
 			await getNodeInfo(requestManager);
 
 			expect(requestManagerSendSpy).toHaveBeenCalledWith({
-				method: 'web3_clientVersion',
+				method: '@jamo/web3_clientVersion',
 				params: [],
 			});
 		});

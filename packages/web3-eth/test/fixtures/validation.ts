@@ -7,7 +7,7 @@ import {
 	TransactionCall,
 	TransactionLegacyUnsigned,
 	TransactionWithSender,
-} from 'web3-common';
+} from '@jamo/web3-common';
 import { InvalidTransactionCall, InvalidTransactionWithSender } from '../../src/errors';
 
 export const isBaseTransactionValidData: [BaseTransaction, true][] = [

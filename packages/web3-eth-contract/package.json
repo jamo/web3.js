@@ -1,5 +1,5 @@
 {
-	"name": "web3-eth-contract",
+	"name": "@jamo/web3-eth-contract",
 	"version": "4.0.0-alpha.0",
 	"description": "Web3 module to interact with Ethereum smart contracts.",
 	"main": "dist/index.js",
@@ -25,12 +25,12 @@
 		"test:integration": "jest --config=./test/integration/jest.config.js --passWithNoTests"
 	},
 	"dependencies": {
-		"web3-common": "1.0.0-alpha.0",
-		"web3-core": "4.0.0-alpha.0",
-		"web3-eth-abi": "4.0.0-alpha.0",
-		"web3-utils": "4.0.0-alpha.1",
-		"web3-validator": "0.1.0-alpha.0",
-		"web3-eth": "4.0.0-alpha.1"
+		"@jamo/web3-common": "1.0.0-alpha.0",
+		"@jamo/web3-core": "4.0.0-alpha.0",
+		"@jamo/web3-eth-abi": "4.0.0-alpha.0",
+		"@jamo/web3-utils": "4.0.0-alpha.1",
+		"@jamo/web3-validator": "0.1.0-alpha.0",
+		"@jamo/web3-eth": "4.0.0-alpha.1"
 	},
 	"devDependencies": {
 		"@humeris/espresso-shot": "^4.0.0",

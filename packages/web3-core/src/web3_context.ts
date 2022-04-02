@@ -1,5 +1,5 @@
-import { Web3APISpec } from 'web3-common';
-import { HexString } from 'web3-utils';
+import { Web3APISpec } from '@jamo/web3-common';
+import { HexString } from '@jamo/web3-utils';
 import { SupportedProviders } from './types';
 import { isSupportedProvider } from './utils';
 // eslint-disable-next-line import/no-cycle

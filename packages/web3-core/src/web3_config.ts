@@ -1,5 +1,5 @@
-import { Web3EventEmitter } from 'web3-common';
-import { Numbers, HexString, toHex, BlockNumberOrTag } from 'web3-utils';
+import { Web3EventEmitter } from '@jamo/web3-common';
+import { Numbers, HexString, toHex, BlockNumberOrTag } from '@jamo/web3-utils';
 import { TransactionTypeParser } from './types';
 // eslint-disable-next-line import/no-cycle
 import { TransactionBuilder } from './web3_context';

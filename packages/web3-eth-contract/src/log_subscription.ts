@@ -1,7 +1,11 @@
-import { LogsInput } from 'web3-common';
-import { Web3RequestManager, Web3Subscription } from 'web3-core';
-import { AbiEventFragment, encodeEventSignature, jsonInterfaceMethodToString } from 'web3-eth-abi';
-import { HexString } from 'web3-utils';
+import { LogsInput } from '@jamo/web3-common';
+import { Web3RequestManager, Web3Subscription } from '@jamo/web3-core';
+import {
+	AbiEventFragment,
+	encodeEventSignature,
+	jsonInterfaceMethodToString,
+} from '@jamo/web3-eth-abi';
+import { HexString } from '@jamo/web3-utils';
 import { decodeEventABI } from './encoding';
 
 export class LogsSubscription extends Web3Subscription<

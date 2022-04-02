@@ -12,8 +12,8 @@ import {
 	JsonRpcNotification,
 	JsonRpcSubscriptionResult,
 	jsonRpc,
-} from 'web3-common';
-import { HexString } from 'web3-utils';
+} from '@jamo/web3-common';
+import { HexString } from '@jamo/web3-utils';
 import { Web3RequestManager } from './web3_request_manager';
 
 type CommonSubscriptionEvents = {

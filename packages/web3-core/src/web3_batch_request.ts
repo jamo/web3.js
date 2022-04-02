@@ -7,7 +7,7 @@ import {
 	ResponseError,
 	OperationAbortError,
 	OperationTimeoutError,
-} from 'web3-common';
+} from '@jamo/web3-common';
 import { Web3RequestManager } from './web3_request_manager';
 
 export const DEFAULT_BATCH_REQUEST_TIMEOUT = 1000;

@@ -1,5 +1,5 @@
 {
-	"name": "web3-eth-ens",
+	"name": "@jamo/web3-eth-ens",
 	"version": "4.0.0-alpha.0",
 	"description": "This package has ENS functions for interacting with Ethereum Name Service.",
 	"main": "dist/index.js",
@@ -42,11 +42,11 @@
 	},
 	"dependencies": {
 		"idna-uts46-hx": "^3.4.0",
-		"web3-common": "^1.0.0-alpha.0",
-		"web3-core": "^4.0.0-alpha.0",
-		"web3-eth": "^4.0.0-alpha.0",
-		"web3-eth-contract": "^4.0.0-alpha.0",
-		"web3-net": "^4.0.0-alpha.0",
-		"web3-utils": "^4.0.0-alpha.1"
+		"@jamo/web3-common": "^1.0.0-alpha.0",
+		"@jamo/web3-core": "^4.0.0-alpha.0",
+		"@jamo/web3-eth": "^4.0.0-alpha.0",
+		"@jamo/web3-eth-contract": "^4.0.0-alpha.0",
+		"@jamo/web3-net": "^4.0.0-alpha.0",
+		"@jamo/web3-utils": "^4.0.0-alpha.1"
 	}
 }

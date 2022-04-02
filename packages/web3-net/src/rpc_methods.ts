@@ -1,4 +1,4 @@
-import { Web3RequestManager } from 'web3-core';
+import { Web3RequestManager } from '@jamo/web3-core';
 import { Web3NetAPI } from './web3_net_api';
 
 export async function getId(requestManager: Web3RequestManager<Web3NetAPI>) {

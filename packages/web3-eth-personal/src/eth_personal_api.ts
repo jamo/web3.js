@@ -1,5 +1,5 @@
-import { Address, HexString } from 'web3-utils';
-import { Transaction } from 'web3-eth';
+import { Address, HexString } from '@jamo/web3-utils';
+import { Transaction } from '@jamo/web3-eth';
 
 export type EthPersonalAPI = {
 	personal_listAccounts: () => Address[];

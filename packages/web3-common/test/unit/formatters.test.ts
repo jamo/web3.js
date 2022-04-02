@@ -1,5 +1,5 @@
-import * as utils from 'web3-utils';
-import { Iban } from 'web3-eth-iban';
+import * as utils from '@jamo/web3-utils';
+import { Iban } from '@jamo/web3-eth-iban';
 import {
 	inputAddressFormatter,
 	inputBlockNumberFormatter,
@@ -17,8 +17,8 @@ import {
 
 import * as formatters from '../../src/formatters';
 
-jest.mock('web3-eth-iban');
-jest.mock('web3-utils');
+jest.mock('@jamo/web3-eth-iban');
+jest.mock('@jamo/web3-utils');
 
 describe('formatters', () => {
 	const toNumberResult = 12345;

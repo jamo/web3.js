@@ -1,8 +1,8 @@
-import { EthExecutionAPI } from 'web3-common';
-import { SupportedProviders, Web3Context } from 'web3-core';
-import Eth from 'web3-eth';
-import { Iban } from 'web3-eth-iban';
-import { ENS, registryAddresses } from 'web3-eth-ens';
+import { EthExecutionAPI } from '@jamo/web3-common';
+import { SupportedProviders, Web3Context } from '@jamo/web3-core';
+import Eth from '@jamo/web3-eth';
+import { Iban } from '@jamo/web3-eth-iban';
+import { ENS, registryAddresses } from '@jamo/web3-eth-ens';
 import {
 	ContractAbi,
 	encodeFunctionCall,
@@ -13,8 +13,8 @@ import {
 	encodeFunctionSignature,
 	encodeEventSignature,
 	decodeLog,
-} from 'web3-eth-abi';
-import Contract, { ContractInitOptions } from 'web3-eth-contract';
+} from '@jamo/web3-eth-abi';
+import Contract, { ContractInitOptions } from '@jamo/web3-eth-contract';
 import {
 	create,
 	privateKeyToAccount,
@@ -25,8 +25,8 @@ import {
 	recover,
 	encrypt,
 	decrypt,
-} from 'web3-eth-accounts';
-import { Address } from 'web3-utils';
+} from '@jamo/web3-eth-accounts';
+import { Address } from '@jamo/web3-utils';
 import { ContractError } from './errors';
 
 export class Web3 extends Web3Context<EthExecutionAPI> {

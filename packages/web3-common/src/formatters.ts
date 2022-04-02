@@ -1,4 +1,4 @@
-import { Iban } from 'web3-eth-iban';
+import { Iban } from '@jamo/web3-eth-iban';
 import {
 	BlockTags,
 	Filter,
@@ -16,8 +16,8 @@ import {
 	Topic,
 	toUtf8,
 	utf8ToHex,
-} from 'web3-utils';
-import { isBlockTag, isHex } from 'web3-validator';
+} from '@jamo/web3-utils';
+import { isBlockTag, isHex } from '@jamo/web3-validator';
 import { FormatterError } from './errors';
 import {
 	BlockInput,

@@ -1,4 +1,4 @@
-import { isHexStrict, validator, utils as validatorUtils } from 'web3-validator';
+import { isHexStrict, validator, utils as validatorUtils } from '@jamo/web3-validator';
 import { numberToHex, toHex, toNumber } from './converters';
 import { Numbers } from './types';
 import { NibbleWidthError } from './errors';

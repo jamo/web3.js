@@ -1,5 +1,5 @@
-import { DataFormat, DEFAULT_RETURN_FORMAT, format, FormatType } from 'web3-common';
-import { bytesToBuffer, mergeDeep } from 'web3-utils';
+import { DataFormat, DEFAULT_RETURN_FORMAT, format, FormatType } from '@jamo/web3-common';
+import { bytesToBuffer, mergeDeep } from '@jamo/web3-utils';
 import { TransactionDataAndInputError } from '../errors';
 import { transactionSchema } from '../schemas';
 import { Transaction } from '../types';

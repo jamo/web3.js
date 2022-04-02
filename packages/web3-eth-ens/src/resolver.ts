@@ -1,6 +1,6 @@
-import { Address, sha3, isHexStrict } from 'web3-utils';
-import { Contract, NonPayableCallOptions } from 'web3-eth-contract';
-import { inputAddressFormatter, ResolverMethodMissingError } from 'web3-common';
+import { Address, sha3, isHexStrict } from '@jamo/web3-utils';
+import { Contract, NonPayableCallOptions } from '@jamo/web3-eth-contract';
+import { inputAddressFormatter, ResolverMethodMissingError } from '@jamo/web3-common';
 import { interfaceIds, methodsInInterface } from './config';
 import { Registry } from './registry';
 import { RESOLVER } from './abi/resolver';

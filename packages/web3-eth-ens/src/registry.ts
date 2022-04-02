@@ -1,6 +1,6 @@
-import { inputAddressFormatter } from 'web3-common';
-import { Contract, NonPayableCallOptions } from 'web3-eth-contract';
-import { Address, isHexStrict, sha3Raw } from 'web3-utils';
+import { inputAddressFormatter } from '@jamo/web3-common';
+import { Contract, NonPayableCallOptions } from '@jamo/web3-eth-contract';
+import { Address, isHexStrict, sha3Raw } from '@jamo/web3-utils';
 import REGISTRY from './abi/registry';
 import { RESOLVER } from './abi/resolver';
 import { registryAddresses } from './config';

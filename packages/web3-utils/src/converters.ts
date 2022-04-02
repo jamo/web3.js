@@ -1,4 +1,4 @@
-import { validator, isAddress, isHexStrict, utils as validatorUtils } from 'web3-validator';
+import { validator, isAddress, isHexStrict, utils as validatorUtils } from '@jamo/web3-validator';
 import { keccak256 } from 'ethereum-cryptography/keccak';
 
 import {

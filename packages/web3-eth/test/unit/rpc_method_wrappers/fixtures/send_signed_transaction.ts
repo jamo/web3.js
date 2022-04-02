@@ -1,5 +1,5 @@
-import { ReceiptInfo } from 'web3-common';
-import { HexString } from 'web3-utils';
+import { ReceiptInfo } from '@jamo/web3-common';
+import { HexString } from '@jamo/web3-utils';
 
 const expectedTransactionHash =
 	'0xe21194c9509beb01be7e90c2bcefff2804cd85836ae12134f22ad4acda0fc547';

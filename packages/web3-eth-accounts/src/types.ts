@@ -1,5 +1,5 @@
 import { FeeMarketEIP1559TxData, AccessListEIP2930TxData, TxData } from '@ethereumjs/tx';
-import { HexString } from 'web3-utils';
+import { HexString } from '@jamo/web3-utils';
 
 export type signatureObject = {
 	messageHash: string;

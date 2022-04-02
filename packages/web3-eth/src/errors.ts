@@ -21,8 +21,8 @@ import {
 	ERR_TX_POLLING_TIMEOUT,
 	ERR_TX_RECEIPT_MISSING_OR_BLOCKHASH_NULL,
 	ERR_TX_RECEIPT_MISSING_BLOCK_NUMBER,
-} from 'web3-common';
-import { Bytes, HexString, Numbers, Web3Error } from 'web3-utils';
+} from '@jamo/web3-common';
+import { Bytes, HexString, Numbers, Web3Error } from '@jamo/web3-utils';
 
 import { ReceiptInfo } from './types';
 

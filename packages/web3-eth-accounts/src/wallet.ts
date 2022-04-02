@@ -3,7 +3,7 @@ import {
 	Web3BaseWalletAccount,
 	Web3AccountProvider,
 	Web3EncryptedWallet,
-} from 'web3-common';
+} from '@jamo/web3-common';
 
 type BrowserError = { code: number; name: string };
 
@@ -11,7 +11,7 @@ export class Wallet<
 	T extends Web3BaseWalletAccount = Web3BaseWalletAccount,
 > extends Web3BaseWallet<T> {
 	private readonly _accounts: { [key: string]: T };
-	private readonly _defaultKeyName = 'web3js_wallet';
+	private readonly _defaultKeyName = '@jamo/web3js_wallet';
 
 	public constructor(accountProvider: Web3AccountProvider<T>) {
 		super(accountProvider);

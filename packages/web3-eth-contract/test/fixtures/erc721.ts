@@ -1,4 +1,4 @@
-import { Address, Numbers } from 'web3-utils';
+import { Address, Numbers } from '@jamo/web3-utils';
 import { LogsSubscription } from '../../src/log_subscription';
 import { ContractEventOptions, NonPayableMethodObject, PayableMethodObject } from '../../src/types';
 

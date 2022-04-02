@@ -11,7 +11,7 @@ import {
 	Uint256,
 	Topic,
 	Filter,
-} from 'web3-utils';
+} from '@jamo/web3-utils';
 
 // The types are generated manually by referring to following doc
 // https://github.com/ethereum/execution-apis

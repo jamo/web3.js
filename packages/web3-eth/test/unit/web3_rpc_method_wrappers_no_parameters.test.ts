@@ -9,7 +9,7 @@ import {
 
 jest.mock('../../src/rpc_methods');
 
-describe('web3_eth_methods_no_parameters', () => {
+describe('@jamo/web3_eth_methods_no_parameters', () => {
 	let web3Eth: Web3Eth;
 
 	beforeAll(() => {

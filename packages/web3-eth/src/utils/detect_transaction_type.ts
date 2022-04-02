@@ -1,5 +1,5 @@
-import { EthExecutionAPI, DEFAULT_RETURN_FORMAT, format } from 'web3-common';
-import { TransactionTypeParser, Web3Context } from 'web3-core';
+import { EthExecutionAPI, DEFAULT_RETURN_FORMAT, format } from '@jamo/web3-common';
+import { TransactionTypeParser, Web3Context } from '@jamo/web3-core';
 import { InternalTransaction, Transaction } from '../types';
 
 export const defaultTransactionTypeParser: TransactionTypeParser = transaction => {

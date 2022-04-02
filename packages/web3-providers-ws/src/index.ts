@@ -21,7 +21,7 @@ import {
 	Web3BaseProviderCallback,
 	Web3BaseProviderStatus,
 	DeferredPromise,
-} from 'web3-common';
+} from '@jamo/web3-common';
 import { Web3WSProviderError } from './errors';
 import { ReconnectOptions, WSRequestItem } from './types';
 

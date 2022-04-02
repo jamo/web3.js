@@ -3,8 +3,8 @@ import {
 	Web3APIPayload,
 	JsonRpcResponse,
 	JsonRpcResponseWithResult,
-} from 'web3-common';
-import { toWei, hexToNumber } from 'web3-utils';
+} from '@jamo/web3-common';
+import { toWei, hexToNumber } from '@jamo/web3-utils';
 import HttpProvider from '../../src/index';
 import { accounts, clientUrl } from '../fixtures/config';
 

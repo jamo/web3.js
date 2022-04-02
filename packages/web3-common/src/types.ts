@@ -1,4 +1,4 @@
-import { HexString, HexString32Bytes } from 'web3-utils';
+import { HexString, HexString32Bytes } from '@jamo/web3-utils';
 
 export type JsonRpcId = string | number | null;
 export type JsonRpcResult = string | number | boolean | Record<string, unknown>;

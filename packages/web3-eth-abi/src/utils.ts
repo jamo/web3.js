@@ -1,6 +1,6 @@
 import { AbiCoder, ParamType } from '@ethersproject/abi';
-import { AbiError } from 'web3-common';
-import { leftPad, rightPad, toHex } from 'web3-utils';
+import { AbiError } from '@jamo/web3-common';
+import { leftPad, rightPad, toHex } from '@jamo/web3-utils';
 import ethersAbiCoder from './ethers_abi_coder';
 import {
 	AbiInput,

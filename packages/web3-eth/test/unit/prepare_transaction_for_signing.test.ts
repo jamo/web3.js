@@ -1,6 +1,6 @@
-import { EthExecutionAPI } from 'web3-common';
-import { Web3Context } from 'web3-core';
-import HttpProvider from 'web3-providers-http';
+import { EthExecutionAPI } from '@jamo/web3-common';
+import { Web3Context } from '@jamo/web3-core';
+import HttpProvider from '@jamo/web3-providers-http';
 import {
 	AccessListEIP2930Transaction,
 	FeeMarketEIP1559Transaction,

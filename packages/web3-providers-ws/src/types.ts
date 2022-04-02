@@ -1,4 +1,4 @@
-import { Web3APIMethod, Web3APIPayload, Web3APISpec, DeferredPromise } from 'web3-common';
+import { Web3APIMethod, Web3APIPayload, Web3APISpec, DeferredPromise } from '@jamo/web3-common';
 
 export type ReconnectOptions = {
 	autoReconnect: boolean;

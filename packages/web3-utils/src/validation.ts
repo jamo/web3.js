@@ -9,7 +9,7 @@ import {
 	isTopic as isTopicValidator,
 	isTopicInBloom as isTopicInBloomValidator,
 	isUserEthereumAddressInBloom as isUserEthereumAddressInBloomValidator,
-} from 'web3-validator';
+} from '@jamo/web3-validator';
 import { InvalidBlockError } from './errors';
 import { Numbers } from './types';
 

@@ -1,5 +1,5 @@
-import { ReceiptInfo } from 'web3-common';
-import { HexString } from 'web3-utils';
+import { ReceiptInfo } from '@jamo/web3-common';
+import { HexString } from '@jamo/web3-utils';
 import { SendTransactionOptions, Transaction } from '../../../../src/types';
 
 const inputTransaction = {

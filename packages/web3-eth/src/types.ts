@@ -5,8 +5,8 @@ import {
 	FMT_BYTES,
 	FMT_NUMBER,
 	FormatType,
-} from 'web3-common';
-import { Address, Bytes, Numbers } from 'web3-utils';
+} from '@jamo/web3-common';
+import { Address, Bytes, Numbers } from '@jamo/web3-utils';
 
 export type ValidChains = 'goerli' | 'kovan' | 'mainnet' | 'rinkeby' | 'ropsten' | 'sepolia';
 export type Hardfork =

@@ -1,4 +1,4 @@
-import { Web3RequestManager } from 'web3-core';
+import { Web3RequestManager } from '@jamo/web3-core';
 
 import { getId, getPeerCount, isListening } from '../../src/rpc_methods';
 import { Web3NetAPI } from '../../src/web3_net_api';

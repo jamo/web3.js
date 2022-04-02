@@ -1,5 +1,5 @@
-import { AccessList, Block } from 'web3-common';
-import { HexString } from 'web3-utils';
+import { AccessList, Block } from '@jamo/web3-common';
+import { HexString } from '@jamo/web3-utils';
 import { Common, Transaction } from '../../src/types';
 
 export const preEip1559Block: Block = {

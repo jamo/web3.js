@@ -1,4 +1,4 @@
-import { DEFAULT_RETURN_FORMAT, FMT_BYTES, FMT_NUMBER } from 'web3-common';
+import { DEFAULT_RETURN_FORMAT, FMT_BYTES, FMT_NUMBER } from '@jamo/web3-common';
 import { formatTransaction } from '../../src/utils/format_transaction';
 import {
 	bigIntTransaction,

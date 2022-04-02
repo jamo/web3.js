@@ -1,5 +1,5 @@
 {
-	"name": "web3-providers-ws",
+	"name": "@jamo/web3-providers-ws",
 	"version": "4.0.0-alpha.0",
 	"description": "Websocket provider for Web3 4.x.x",
 	"main": "dist/index.js",
@@ -43,6 +43,6 @@
 	"dependencies": {
 		"isomorphic-ws": "^4.0.1",
 		"ws": "^8.2.3",
-		"web3-common": "1.0.0-alpha.0"
+		"@jamo/web3-common": "1.0.0-alpha.0"
 	}
 }

@@ -1,4 +1,4 @@
-import { DataFormat, FMT_BYTES, FMT_NUMBER } from 'web3-common';
+import { DataFormat, FMT_BYTES, FMT_NUMBER } from '@jamo/web3-common';
 
 export const getDataFormat: DataFormat[] = [
 	{ number: FMT_NUMBER.HEX, bytes: FMT_BYTES.HEX },

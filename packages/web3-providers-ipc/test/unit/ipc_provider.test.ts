@@ -1,5 +1,5 @@
 import * as fs from 'fs';
-import { InvalidClientError } from 'web3-common';
+import { InvalidClientError } from '@jamo/web3-common';
 import IpcProvider from '../../src/index';
 
 jest.mock('net');

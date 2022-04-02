@@ -20,8 +20,8 @@ import {
 	Address,
 	isHexStrict,
 	utf8ToHex,
-} from 'web3-utils';
-import { validator, isBuffer, isHexString32Bytes, isString } from 'web3-validator';
+} from '@jamo/web3-utils';
+import { validator, isBuffer, isHexString32Bytes, isString } from '@jamo/web3-validator';
 import {
 	InvalidPrivateKeyError,
 	PrivateKeyLengthError,
@@ -34,7 +34,7 @@ import {
 	InvalidPasswordError,
 	IVLengthError,
 	PBKDF2IterationsError,
-} from 'web3-common';
+} from '@jamo/web3-common';
 import {
 	signatureObject,
 	signFunction,

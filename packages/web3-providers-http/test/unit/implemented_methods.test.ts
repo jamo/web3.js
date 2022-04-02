@@ -4,7 +4,7 @@ import fetchMock from 'jest-fetch-mock';
 jest.setMock('cross-fetch', fetchMock);
 
 /* eslint-disable-next-line import/first */
-import { ResponseError, Web3APIPayload, EthExecutionAPI } from 'web3-common';
+import { ResponseError, Web3APIPayload, EthExecutionAPI } from '@jamo/web3-common';
 /* eslint-disable-next-line import/first */
 import HttpProvider from '../../src/index';
 /* eslint-disable-next-line import/first */

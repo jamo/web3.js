@@ -7,10 +7,10 @@ import {
 	JsonRpcBatchResponse,
 	JsonRpcResponseWithError,
 	JsonRpcResponseWithResult,
-} from 'web3-common';
-import HttpProvider from 'web3-providers-http';
-import WSProvider from 'web3-providers-ws';
-import IpcProvider from 'web3-providers-ipc';
+} from '@jamo/web3-common';
+import HttpProvider from '@jamo/web3-providers-http';
+import WSProvider from '@jamo/web3-providers-ws';
+import IpcProvider from '@jamo/web3-providers-ipc';
 import { Web3RequestManager, Web3RequestManagerEvent } from '../../src/web3_request_manager';
 import * as utils from '../../src/utils';
 
@@ -250,7 +250,7 @@ describe('Web3RequestManager', () => {
 			await expect(manager.send(request)).rejects.toThrow('Provider not available');
 		});
 
-		describe('web3-provider', () => {
+		describe('@jamo/web3-provider', () => {
 			beforeEach(() => {
 				jest.spyOn(utils, 'isWeb3Provider').mockReturnValue(true);
 				jest.spyOn(utils, 'isLegacyRequestProvider').mockReturnValue(false);
@@ -499,7 +499,7 @@ describe('Web3RequestManager', () => {
 			await expect(manager.sendBatch(request)).rejects.toThrow('Provider not available');
 		});
 
-		describe('web3-provider', () => {
+		describe('@jamo/web3-provider', () => {
 			beforeEach(() => {
 				jest.spyOn(utils, 'isWeb3Provider').mockReturnValue(true);
 				jest.spyOn(utils, 'isLegacyRequestProvider').mockReturnValue(false);

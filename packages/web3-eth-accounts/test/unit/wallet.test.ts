@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/no-magic-numbers */
 
 import { when } from 'jest-when';
-import { Web3AccountProvider, Web3BaseWalletAccount } from 'web3-common';
+import { Web3AccountProvider, Web3BaseWalletAccount } from '@jamo/web3-common';
 import { Wallet } from '../../src/wallet';
 
 describe('Wallet', () => {
@@ -278,7 +278,7 @@ describe('Wallet', () => {
 			expect(wallet.encrypt).toHaveBeenCalledWith('password');
 			expect(localStorageSpy.setItem).toHaveBeenCalledTimes(1);
 			expect(localStorageSpy.setItem).toHaveBeenCalledWith(
-				'web3js_wallet',
+				'@jamo/web3js_wallet',
 				JSON.stringify(encryptedWallet),
 			);
 		});
@@ -309,7 +309,7 @@ describe('Wallet', () => {
 			const encryptedWallet = JSON.stringify(['encryptedWallet']);
 
 			when(localStorageSpy.getItem)
-				.calledWith('web3js_wallet')
+				.calledWith('@jamo/web3js_wallet')
 				.mockReturnValue(encryptedWallet);
 			jest.spyOn(wallet, 'decrypt').mockReturnValue({} as never);
 
@@ -318,7 +318,7 @@ describe('Wallet', () => {
 			expect(wallet.decrypt).toHaveBeenCalledTimes(1);
 			expect(wallet.decrypt).toHaveBeenCalledWith(['encryptedWallet'], 'password');
 			expect(localStorageSpy.getItem).toHaveBeenCalledTimes(1);
-			expect(localStorageSpy.getItem).toHaveBeenCalledWith('web3js_wallet');
+			expect(localStorageSpy.getItem).toHaveBeenCalledWith('@jamo/web3js_wallet');
 		});
 	});
 });

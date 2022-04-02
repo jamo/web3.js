@@ -1,5 +1,5 @@
 {
-	"name": "web3-validator",
+	"name": "@jamo/web3-validator",
 	"version": "0.1.0-alpha.0",
 	"description": "JSON-Schema compatible validator for web3",
 	"main": "dist/index.js",
